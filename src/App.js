@@ -1,6 +1,3 @@
-import { DatePicker } from 'antd';
-
-import logo from './logo.svg';
 import './App.css';
 import Dashboard from './Dashboard';
 
