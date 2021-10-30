@@ -1,8 +1,6 @@
 .bg {
-  background-image: url("https://user-images.githubusercontent.com/41516971/139524483-90a68abb-a68d-4cb3-bf56-5bde965c823c.jpg");
+  background-image: url("https://user-images.githubusercontent.com/41516971/139524483-90a68abb-a68d-4cb3-bf56-5bde965c823c.jpg") no-repeat cover;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
 }
 
