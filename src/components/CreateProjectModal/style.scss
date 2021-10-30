@@ -1,0 +1,60 @@
+.create_project_modal {
+  .ant-modal-body {
+    padding: 0;
+  }
+  .side_a {
+    padding: 25px;
+    h2 {
+      margin-bottom: 8px;
+    }
+    .project_form {
+      margin-top: 2.5em;
+      .ant-form-item {
+        margin-bottom: 1em;
+        &-label {
+          font-weight: 500;
+          span {
+            color: #d0cfcf;
+            display: inline-block;
+            margin-left: 10px;
+            font-weight: normal;
+          }
+        }
+        &-control-input-content {
+          span {
+            color: #a3a3a3;
+            font-size: 12px;
+          }
+        }
+        .ant-input,
+        .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+          background-color: #fcfcfc;
+          border: 1px solid #cdcccc;
+        }
+        button {
+          background-color: var(--theme-color);
+          color: white;
+          font-weight: 600;
+          font-size: 1.2em;
+          height: 50px;
+          span {
+            font-size: inherit;
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+  .side_b {
+    background-image: url(../../assets/images/create_project_modal_bg.svg);
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    .ant-image {
+      margin-bottom: 10em;
+    }
+  }
+}
