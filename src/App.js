@@ -1,11 +1,12 @@
 import './App.css';
-import SignUp from './Signup/SignUp';
+import TaskCard from './component/Card/TaskCard';
+// import SignUp from './component/Signup/SignUp';
 
 function App() {
   return (
     <>
-      <SignUp />
-      
+      {/* <SignUp /> */}
+      <TaskCard/>
       </>
   );
 }
