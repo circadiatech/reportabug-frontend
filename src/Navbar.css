@@ -7,7 +7,7 @@
   background-color: #5757ff;
 }
 
-.col-1 {
+.col {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,10 +33,6 @@
 }
 
 .col-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
   padding: 1em 0;
 }
 
