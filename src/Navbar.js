@@ -7,23 +7,23 @@ function Navbar() {
       <div className="col-1">
         <button className="btn">
           My Projects
-          <i className="fas fa-chevron-down"></i>
+          <i className="chevron-down-icon fas fa-chevron-down"></i>
         </button>
         <button className="btn">
           Create
-          <i className="fa-solid fa-plus"></i>
+          <i className="plus-icon fa-solid fa-plus"></i>
         </button>
       </div>
       <div className="col-2">
         <div className="input">
-            <i className="fa-solid fa-search"></i>
+            <i className="search-icon fa-solid fa-search"></i>
           <input className="search" type="text" placeholder="Search" />
         </div>
-        <img src="" alt="" />
+        <img className="avatar" src="" alt="" />
         <span>Hello, Syed Taha</span>
-        <i class="fas fa-sort-down"></i>
-        <i class="fas fa-info-circle"></i>
-        <i class="fas fa-bell"></i> 
+        <i class="icon fas fa-sort-down"></i>
+        <i class="icon fas fa-info-circle"></i>
+        <i class="icon fas fa-bell"></i> 
       </div>
     </div>
   );
