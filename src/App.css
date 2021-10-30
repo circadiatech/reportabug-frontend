@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+.bg {
+  background-image: url("https://user-images.githubusercontent.com/41516971/139524483-90a68abb-a68d-4cb3-bf56-5bde965c823c.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signUpBox {
+  border: 1px solid rgba(117, 117, 117, 0.5);
+  height: 65%;
+  text-align: -webkit-center;
+  padding: 35px 0 0 25px;
+    box-shadow: 0 3px 8px rgba(117, 117, 117, 0.5);
+}
+.signUpBtn {
+  width: 330px !important;
+  color: #5b79ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.google-btn {
+  margin: 15px 0 0 -20px;
+  width: 95%;
+  min-width: 184px;
+  max-width: 184px;
+  height: 42px;
+  background-color: #fcfcfc;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  cursor: hand;
+  align-self: center;
+  user-select: none;
+  transition: all 400ms ease 0s;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.google-btn .google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: -15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  user-select: none;
+}
+.google-btn .google-icon-svg {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: -75px;
+  width: 18px;
+  height: 18px;
+  user-select: none;
+}
+.google-btn .btn-text {
+  float: right;
+  margin: 11px 14px 40px 40px;
+  color: #757575;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: Roboto;
+  user-select: none;
+}
+.google-btn:hover {
+  box-shadow: 0 3px 8px rgba(117, 117, 117, 0.5);
+  user-select: none;
+}
+.google-btn:active {
+  box-shadow: 0 1px 1px #757575;
+  background: #f8f8f8;
+  color: #fff;
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.borderSbottom {
+  border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+  margin: 26px 20px 13px 0;
+  width: 320px;
 }
